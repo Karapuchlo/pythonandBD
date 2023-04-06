@@ -15,7 +15,7 @@ CREATE TABLE customer
 CREATE TABLE orders
 (
 	order_id int PRYMARY_KEY,
-	customer_id	int,
+	customer_id	varchar(50),
 	employee_id	int,
 	order_date	DATE,
 	ship_city varchar(50)
